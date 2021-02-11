@@ -74,7 +74,7 @@ const setBlocks = ()=>{
           setTimeout(()=>{
               console.log(datas);
               setBlocks();
-          },500);
+          },2000);
         
   })
 
