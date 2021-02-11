@@ -221,7 +221,7 @@ nav{
     }
     .home-page{
         background-position: bottom;
-        background-image: url(guy.png);
+        background-image: url(../images/guy.png);
         background-size: 500px 400px;
     }
     .content{
