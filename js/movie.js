@@ -2,7 +2,7 @@ var vars = {};
 var datas;
 
 async function generateMovie(e){
-    var  response = await fetch(`http://www.omdbapi.com/?t=${e}&apikey=55814f5`);
+    var  response = await fetch(`https://www.omdbapi.com/?t=${e}&apikey=55814f5`);
     var temp = await response.json();
     datas = temp;
     console.log(datas)
