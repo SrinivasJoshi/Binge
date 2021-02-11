@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url('./images/rectangle.png');
+    background-image: url('../images/rectangle.png');
     background-size: cover;
     padding: 20px;
     color: #fff;
