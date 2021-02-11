@@ -11,7 +11,7 @@
     var movieName=(vars.search.replace(/[+]/g,' ')) ;
 
     async function generateMovies(e){
-        var  response = await fetch('http://www.omdbapi.com/?s='+e+'&apikey=55814f5');
+        var  response = await fetch('https://www.omdbapi.com/?s='+e+'&apikey=55814f5');
         var temp = await response.json();
         datas = temp.Search;
         length = datas.length;
