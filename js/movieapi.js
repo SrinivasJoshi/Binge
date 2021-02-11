@@ -12,7 +12,7 @@ var datas = [];
 var i = 0;
 
 async function generateMovie(e){
-    var  response = await fetch('http://www.omdbapi.com/?t='+e+'&apikey=55814f5');
+    var  response = await fetch('https://www.omdbapi.com/?t='+e+'&apikey=55814f5');
     var data = await response.json();
     datas = [...datas,data];
 }
